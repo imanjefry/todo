@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.navbar-container .MuiTextField-root {
+  flex: none;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.navbar-container .MuiIconButton-root {
+  color: #555;
+}
+
+.navbar-container .MuiBadge-root {
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.footer-menu {
+  position: center;
+  padding: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-top: 5px solid #000000;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-menu .MuiBottomNavigationAction-root {
+  color: #555;
+}
+
+.footer-menu .Mui-selected {
+  color: #1976d2;
+}
